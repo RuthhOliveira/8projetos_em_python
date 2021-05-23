@@ -5,7 +5,6 @@ class SimuladorDeDado:
     def __init__(self):
         self.valor_minimo = 1
         self.valor_maximo = 6
-        self.mensagem = 'você gostaria de gerar um novo valor para o dado ?'
         #layout
         self.layout = [
             [sg.Text('jogar o dado?')],
